@@ -1,0 +1,30 @@
+.page-wrapper {
+    display: grid;
+    grid-template-columns: 350px 1fr 300px;
+    grid-template-rows: 80px 1fr 80px;
+    height: 100vh;
+    grid-template-areas:
+   	 "header header header"
+   	 "main main sidebar"
+   	 "footer footer footer";
+}
+
+.site-header {
+    background-color: rgb(231, 121, 18);
+    grid-area: header;
+}
+
+.content {
+    grid-area: main;
+    background-color: rgb(238, 229, 98);
+}
+
+.sidebar {
+    grid-area: sidebar;
+    background-color: rgb(98, 198, 238);
+}
+
+.site-footer {
+    grid-area: footer;
+    background-color: rgb(74, 218, 74);
+}

@@ -15,7 +15,3 @@
     height: calc(100vh - 80px);
     background-color: rgb(162, 196, 224);
 }
-
-.row {
-    /* flex-direction: row-reverse; */
-}
