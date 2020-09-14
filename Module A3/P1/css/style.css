@@ -41,6 +41,10 @@ body {
     background-color: #F6F2F2;
 }
 
+.grey-section-header {
+    padding-top: 29px;
+}
+
 header {
     max-width: 1230px;
     margin: 0 auto;
@@ -88,7 +92,7 @@ header {
 .intro {
     max-width: 1249px;
     margin: 0 auto;
-    padding: 89px 10px 110px;
+    padding: 87px 10px 110px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -218,6 +222,10 @@ h3 {
     text-transform: uppercase;
 }
 
+.possib-items > h3 {
+    text-transform: none;
+}
+
 .possib-items > p {
     margin-top: 0;
 }
@@ -230,7 +238,7 @@ h3 {
 }
 
 .products-hr {
-    margin: 62px auto 93px;
+    margin: 63px auto 93px;
     border: none;
     background-color: #ECECEC;
     height: 2px;
