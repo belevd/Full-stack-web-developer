@@ -1,0 +1,21 @@
+.col-head, .col-footer {
+    height: 40px;
+    background-color: rgb(83, 210, 248);
+}
+
+.col-aside {
+    height: calc(100vh - 40px);
+    background-color: rgb(59, 114, 233);
+}
+.col-main {
+    height: calc(100vh - 40px);
+}
+
+.col-main-content {
+    height: calc(100vh - 80px);
+    background-color: rgb(162, 196, 224);
+}
+
+.row {
+    /* flex-direction: row-reverse; */
+}

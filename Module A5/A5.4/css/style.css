@@ -1,0 +1,23 @@
+.col {
+    height: 50px;
+}
+
+.col-first {
+    background-color: #801B14;
+}
+
+.col-second {
+    background-color: #F2E4A4;
+}
+
+.col-third {
+    background-color: #A19D77;
+}
+
+.col-fourth {
+    background-color: #2A2B24;
+}
+
+.col-fifth {
+    background-color: #E0493F;
+}
