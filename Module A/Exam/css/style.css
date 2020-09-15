@@ -1,0 +1,146 @@
+@font-face {
+	src: url('../fonts/OpenSans-Regular.ttf') format('truetype');
+	font-family: 'Open Sans';
+	font-weight: 400;
+	font-style: normal;
+}
+
+body {
+	margin: 0;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+	min-height: 100vh;
+}
+
+main {
+	flex-grow: 1;
+}
+
+/* Header */
+header {
+	box-sizing: border-box;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	max-width: 1249px;
+	margin: 0 auto;
+	min-height: 89px;
+	background-color: #3c413e;
+}
+
+.header-wrapper {
+	padding-top: 29px;
+}
+
+/* Site menu */
+.site-menu {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: stretch;
+	list-style: none;
+	padding: 0;
+	margin: 0;	
+}
+
+.site-menu li {
+	display: flex;
+	align-items: stretch;
+	justify-content: center;
+	min-height: 89px;
+}
+
+.site-menu a {
+	display: flex;
+	align-items: center;
+	padding: 0 30px;
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.site-menu li:hover {
+	background-color: #ff3f40;
+}
+
+/* Popup button */
+.popup-menu-button {
+	display: none;
+	width: 100px;
+	min-height: 50px;
+	border-radius: 5px;
+	background-image: url('../images/open-menu.svg');
+	background-repeat: no-repeat;
+    background-size: contain;
+	background-position: center;
+	background-color: #ffffff;
+}
+
+/* Popup site menu */
+.popup-menu-wrapper {
+	position: relative;
+}
+
+.popup-menu {
+	display: none;
+	flex-direction: column;
+	align-items: stretch;
+	position: absolute;
+	transform: translateX(-50%);
+    left: 50%;
+	list-style: none;
+	padding: 2rem;
+	margin: 0;
+	background-color: #3c413e;
+}
+
+.popup-menu li {
+	display: flex;
+	align-items: stretch;
+	justify-content: center;
+}
+
+.popup-menu a {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 1rem;
+	color: #e0e0e0;
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.popup-menu li:hover {
+	background-color: #ff3f40;
+}
+
+/* Footer */
+.copyright > a {
+	color: grey;
+}
+
+/* JS */
+.visible {
+	display: block;
+}
+
+/* Responsive */
+@media screen and (max-width: 800px) {
+	.popup-menu-button {
+		display: inline-block;
+	}
+	.site-menu {
+		display: none;
+	}
+}
+@media screen and (min-width: 801px) {
+	.popup-menu {
+		display: none;
+	}
+}
